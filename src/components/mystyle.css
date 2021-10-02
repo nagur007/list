@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: white;
+}
+
+.nav-bg{
+    background-color: white !important;
+    font-size: 16px;
+}
+
+.imgtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.datetime{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.author{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.publish{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.row_style{
+    background-color: #e8eaee;
+    border-radius: 15px;
+    z-index: -1;
+    height: 280px;
+}
+
+.row_style:hover{
+    background-color: rgb(247, 247, 247);
+    opacity: 0.8;
+}
+
+.img_rounded {
+    border-radius: 20px;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 10px #bbbbbb;
+}
+
+.container_height{
+    cursor: pointer;
+}
+
+h4{
+    color: #48484a;
+}
+
+p{
+    color: rgb(78, 78, 78);
+}
+
+.maintag{
+    margin-top: 70px;
+}
+
+@media (min-width: 561px) and (max-width: 980px){
+    .row_style{
+        height: 490px;
+    }
+}
+
+@media (max-width: 560px){
+    .row_style{
+        height: auto;
+        background-color: #e8eaee;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 400px){
+    .row_style{
+        background-color: #e8eaee;
+        z-index: -1;
+    }
+    
+    .row_style:hover{
+        background-color: rgb(255, 255, 255);
+        opacity: 0.5;
+    }
+}
+
+.form_top{
+    margin-top: 150px !important;
+}
+
+.button_color{
+    border-color: #00b4e7;
+    border-radius: 20px;
+    color: #00b4e7;
+    font-size: 15px;
+}
+
+.button_color:hover{
+    background-color: #00b4e7;
+    border-radius: 20px;
+    color: white;
+}
+
+.martop{
+    margin-top: 150px;
+    color: #00b4e7;
+}
+
+    
